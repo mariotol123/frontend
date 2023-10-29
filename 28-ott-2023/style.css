@@ -1,0 +1,154 @@
+
+
+body{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+
+header{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    
+    
+   
+}
+
+.git{
+    width: 3%;
+}
+
+.telefono{
+    width: 2%;
+}
+
+.linkedin{
+    width: 2%;
+}
+
+.skills, .soft-skills{
+    margin-left: 10vh;
+}
+.skills:hover{
+    color: red;
+}
+
+
+.img1{
+    width: 40%;
+    margin: 20px;
+    margin-left: 100px;
+    border: solid rebeccapurple;
+    border-radius: 10%;
+    
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 1093px;
+    margin: 0px;
+}
+
+img[alt="java"]{
+    width: 11%;
+    height: 25%;
+    margin-left: 10px;
+}
+
+img[alt="js"]{
+    width: 11%;
+    height: 25%;
+}
+img[alt="html"]{
+    width: 11%;
+    height: 25%;
+}
+img[alt="http"]{
+    width: 11%;
+    height: 25%;
+}
+img[alt="mysql"]{
+    width: 11%;
+    height: 25%;
+}
+img[alt="git"]{
+    width: 11%;
+    height: 25%;
+}
+img[alt="spring"]{
+    width: 11%;
+    height: 25%;
+}
+img[alt="css"]{
+    width: 10%;
+    height: 25%;
+}
+
+.img-header{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.mario-tolvo{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.nome-cognome{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-family: 'Nosifer', sans-serif;
+}
+
+.professione{
+    display: flex;
+    gap: 10px;
+    margin-left: 42%;
+}
+
+.chisono{
+    margin-left: 45%;
+    border: rebeccapurple solid;
+    border-radius: 10%;
+    width: 100px;
+}
+
+.descrizione{
+    width: 350px;
+    margin-left: 34%;
+    text-align: center;
+    border: solid gold;
+    border-radius: 10%;
+    
+}
+.esperienze{
+    margin-right: 10vh;
+    margin-left: 10px;
+}
+
+td{
+    text-align: center;
+    line-height: 100px;
+}
+
+footer{
+    display: block;
+    clear: both;
+    margin-top: 20px;
+    border: solid red;
+}
+
+
+
+

@@ -4,11 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+   /* Pseudo-elemento before */ 
+   h3::before{
+        content: url("images/download.png");
+    }
+    h3::after{
+        content: "💕 ";
+    }
+
+    /* Stiamo stilizzando un elemento che prima non c'era */
+    h4::before{
+        content: "1 ";
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background: red;
+        padding: 3px;
+        margin-right: 5px;
+        color: white;
+        font-size: 33px;
+
+    }
+
+    h1.box-before::before{
+        content: " ";
+        display: inline-block;
+        width: 40px;
+        height: 60px;
+        background: rebeccapurple;
+        padding: 4px;
+    }
+    </style>
 </head>
 <body>
     <header>
-        <img src="./images/download.png" alt="logo1">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita sequi dignissimos similique rerum soluta perferendis, labore ullam dolores culpa amet, eveniet enim ipsa delectus impedit, atque ea ad et. Voluptatum?</p>
+        <h1 class="box-before">Sono un titolo H1</h1>
+        <h2>Sono un H2</h2>
+        <h3>Sono un H3</h3>
+        <h3>Sono unm h3</h3>
+        <br>
+        <br>
+        <br>
+        <h4>Sono un h4</h4>
+        <br><br><br>
+        
+        
+    <div id="div1">
+        <img class="img1" src="./images/download.png" alt="">
+        <nav class="navbar">
+            <li>Home</li>
+            <li>Contatti</li>
+            <li>Chi siamo</li>
+        </nav>
+    </div>
     </header>
 </body>
 </html>
